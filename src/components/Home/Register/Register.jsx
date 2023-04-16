@@ -23,7 +23,7 @@ const Register = () => {
 
     }
     return (
-        <div>
+        <div className='container'>
             <h2>Please Register</h2>
             <form onSubmit={handleSubmit} >
                 <input onChange={handleEmailChange} type="email" name="email" id="email" placeholder='Input Your Email'/> <br />
